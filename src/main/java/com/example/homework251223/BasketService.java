@@ -10,6 +10,7 @@ import java.util.List;
 public class BasketService {
 
     private final Basket basket;
+    //инжектим зависимость от Basket
     public BasketService (Basket basket){
         this.basket = basket;
     }
